@@ -146,6 +146,9 @@ import Dashboard from "./pages/Dashboard";
 import ComingSoon from "./pages/ComingSoon";
 import Employees from "./pages/Employees";
 import Layout from "./components/Layout";
+import Attendance from "./pages/Attendance";
+import Leaves from "./pages/Leaves";
+import Reports from "./pages/Reports";
 // import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
@@ -155,9 +158,9 @@ function App() {
       <Route element={<Layout />}>
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/employees" element={<Employees />} />
-        <Route path="/attendance" element={<ComingSoon title="Attendance Management" />} />
-        <Route path="/leaves" element={<ComingSoon title="Leave Management" />} />
-        <Route path="/reports" element={<ComingSoon title="Reports" />} />
+        <Route path="/attendance" element={<Attendance />} />
+        <Route path="/leaves" element={<Leaves />} />
+        <Route path="/reports" element={<Reports />} />
         {/* <Route path="/employees" element={<Employees />} /> */}
       </Route>
     </Routes>
