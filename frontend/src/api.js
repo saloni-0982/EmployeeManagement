@@ -1,4 +1,4 @@
-export const API = "http://localhost/EmployeeManagement/backend/api";
+export const API = "http://localhost/EmployeeManage/backend/api";
 
 export async function apiFetch(path, options = {}) {
   const res = await fetch(`${API}/${path}`, {
