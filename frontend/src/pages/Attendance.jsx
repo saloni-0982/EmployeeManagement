@@ -84,7 +84,7 @@ export default function Attendance() {
   return (
     <>
       <div className="page-head">
-        <h1>Attendance Management</h1>
+        <h1>Attendance Management Emp.</h1>
         <input
           type="date"
           className="date-input"
